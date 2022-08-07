@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body{
   font-family: 'Inter', sans-serif;
 }
@@ -165,6 +168,121 @@ color: #211B12;
 border-bottom: 2px solid #BF7506;
 margin-right: 25px;
 }
-card-button-icon{
+.card-button-icon {
   margin-right: 4px;  
+}
+
+
+.developer {
+  padding: 80px 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.developer-photo {
+  width: 360px;
+  height: 440px;
+  flex-shrink: 0;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.developer-about{
+  margin-left: 55px;
+}
+
+.developer-hello {
+ font-weight: 400;
+ font-size: 24px;
+ line-height: 135%;
+ letter-spacing: -0.02em;
+ color: #211B12;
+}
+
+.developer-title {
+  margin-top: 4px;
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 125%;
+  letter-spacing: -0.03em;
+  color: #BF7506;
+}
+.developer-text {
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 150%;
+ color: #211B12;
+}
+.motto {
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+color: #DD9C3C;
+margin: 16px 0;
+}
+.signature {
+max-width: 200px;
+}
+.skills {
+  padding: 20px 0;
+}
+.skills-title {
+ font-weight: 700;
+ font-size: 24px;
+ line-height: 135%;
+ letter-spacing: -0.02em;
+ color: #211B12;
+}
+
+.feedback {
+  padding: 80px 0 160px;
+}
+.input-groop {
+  margin-bottom: 24px;
+  position: relative;
+  padding-top: 9px;
+}
+.input-label {
+position: absolute;
+ padding: 0 8px;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 150%;
+ color: #83807C;
+ background-color:#FFFFFF;
+ top: 0;
+ left: 16px;
+}
+.input {
+width: 435px;
+height: 56px;
+border: 3px solid #E0DEDC;
+border-radius: 4px;
+}
+.textarea {
+  min-height: 140px;
+}
+
+.form-container {
+  max-width: 435px;
+  margin: auto;
+}
+
+.submit-button {
+  padding: 7px 8px;
+  display: flex;
+  align-items:center;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #211B12;
+  border: none;
+  border-bottom: 2px solid #BF7506;
+  background-color: #fff;
+  cursor: pointer;
+}
+.button-group {
+  display: flex;
+  justify-content: flex-end;
 }
